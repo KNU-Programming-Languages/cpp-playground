@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="advancedcpp" Database="advancedcpp.tags" Version="10.0.0">
+  <Project Name="BasicExceptions" Path="BasicExceptions/BasicExceptions.project" Active="No"/>
+  <Project Name="StandardExceptions" Path="StandardExceptions/StandardExceptions.project" Active="No"/>
+  <Project Name="CustomExceptions" Path="CustomExceptions/CustomExceptions.project" Active="Yes"/>
+  <Project Name="CatchingSubclassExceptions" Path="CatchingSubclassExceptions/CatchingSubclassExceptions.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="BasicExceptions" ConfigName="Debug"/>
+      <Project Name="StandardExceptions" ConfigName="Debug"/>
+      <Project Name="CustomExceptions" ConfigName="Debug"/>
+      <Project Name="CatchingSubclassExceptions" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="BasicExceptions" ConfigName="Release"/>
+      <Project Name="StandardExceptions" ConfigName="Release"/>
+      <Project Name="CustomExceptions" ConfigName="Release"/>
+      <Project Name="CatchingSubclassExceptions" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
