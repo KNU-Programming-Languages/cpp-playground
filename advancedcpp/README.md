@@ -17,8 +17,8 @@
 7. [Writing Text Files](./WritingTextFiles/main.cpp)
 8. [Reading Text Files](./ReadingTextFiles/main.cpp)
 9. [Parsing Text Files](./ParsingTextinFiles/main.cpp)
-10. [Structs and Padding](./BasicExceptions/main.cpp)
-11. [Reading and Writing Binary Files](./BasicExceptions/main.cpp)
+10. [Structs and Padding](./StructandPadding/main.cpp)
+11. [Reading and Writing Binary Files](./BinaryFiles/main.cpp)
 
 ## Section 4
 
