@@ -2,8 +2,13 @@
 <CodeLite_Workspace Name="advancedcpp" Database="advancedcpp.tags" Version="10.0.0">
   <Project Name="BasicExceptions" Path="BasicExceptions/BasicExceptions.project" Active="No"/>
   <Project Name="StandardExceptions" Path="StandardExceptions/StandardExceptions.project" Active="No"/>
-  <Project Name="CustomExceptions" Path="CustomExceptions/CustomExceptions.project" Active="Yes"/>
+  <Project Name="CustomExceptions" Path="CustomExceptions/CustomExceptions.project" Active="No"/>
   <Project Name="CatchingSubclassExceptions" Path="CatchingSubclassExceptions/CatchingSubclassExceptions.project" Active="No"/>
+  <Project Name="WritingTextFiles" Path="WritingTextFiles/WritingTextFiles.project" Active="No"/>
+  <Project Name="ReadingTextFiles" Path="ReadingTextFiles/ReadingTextFiles.project" Active="No"/>
+  <Project Name="ParsingTextinFiles" Path="ParsingTextinFiles/ParsingTextinFiles.project" Active="No"/>
+  <Project Name="BinaryFiles" Path="BinaryFiles/BinaryFiles.project" Active="Yes"/>
+  <Project Name="StructandPadding" Path="StructandPadding/StructandPadding.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -11,6 +16,11 @@
       <Project Name="StandardExceptions" ConfigName="Debug"/>
       <Project Name="CustomExceptions" ConfigName="Debug"/>
       <Project Name="CatchingSubclassExceptions" ConfigName="Debug"/>
+      <Project Name="WritingTextFiles" ConfigName="Debug"/>
+      <Project Name="ReadingTextFiles" ConfigName="Debug"/>
+      <Project Name="ParsingTextinFiles" ConfigName="Debug"/>
+      <Project Name="BinaryFiles" ConfigName="Debug"/>
+      <Project Name="StructandPadding" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -18,6 +28,11 @@
       <Project Name="StandardExceptions" ConfigName="Release"/>
       <Project Name="CustomExceptions" ConfigName="Release"/>
       <Project Name="CatchingSubclassExceptions" ConfigName="Release"/>
+      <Project Name="WritingTextFiles" ConfigName="Release"/>
+      <Project Name="ReadingTextFiles" ConfigName="Release"/>
+      <Project Name="ParsingTextinFiles" ConfigName="Release"/>
+      <Project Name="BinaryFiles" ConfigName="Release"/>
+      <Project Name="StructandPadding" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

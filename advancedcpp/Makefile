@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ StandardExceptions - Debug ]----------"
-	@cd "StandardExceptions" && "$(MAKE)" -f  "StandardExceptions.mk"
+	@echo "----------Building project:[ BinaryFiles - Debug ]----------"
+	@cd "BinaryFiles" && "$(MAKE)" -f  "BinaryFiles.mk"
 clean:
-	@echo "----------Cleaning project:[ StandardExceptions - Debug ]----------"
-	@cd "StandardExceptions" && "$(MAKE)" -f  "StandardExceptions.mk" clean
+	@echo "----------Cleaning project:[ BinaryFiles - Debug ]----------"
+	@cd "BinaryFiles" && "$(MAKE)" -f  "BinaryFiles.mk" clean

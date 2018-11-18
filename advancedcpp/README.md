@@ -12,8 +12,13 @@
 5. [Custom Exceptions](./CustomExceptions/main.cpp)
 6. [Exceptions Catching Order](./CatchingSubclassExceptions/main.cpp)
 
-## Section 3
+## Section 3: Files
 
+7. [Writing Text Files](./WritingTextFiles/main.cpp)
+8. [Reading Text Files](./ReadingTextFiles/main.cpp)
+9. [Parsing Text Files](./ParsingTextinFiles/main.cpp)
+10. [Structs and Padding](./BasicExceptions/main.cpp)
+11. [Reading and Writing Binary Files](./BasicExceptions/main.cpp)
 
 ## Section 4
 
