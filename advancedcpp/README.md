@@ -7,18 +7,18 @@
 
 ## Section 2: Exceptions
 
-3. [Exceptions Basics](./BasicExceptions/main.cpp)
-4. [Standard Exceptions](./StandardExceptions/main.cpp)
-5. [Custom Exceptions](./CustomExceptions/main.cpp)
-6. [Exceptions Catching Order](./CatchingSubclassExceptions/main.cpp)
+3. [Exceptions Basics](./BasicExceptions/)
+4. [Standard Exceptions](./StandardExceptions/)
+5. [Custom Exceptions](./CustomExceptions/)
+6. [Exceptions Catching Order](./CatchingSubclassExceptions/)
 
 ## Section 3: Files
 
-7. [Writing Text Files](./WritingTextFiles/main.cpp)
-8. [Reading Text Files](./ReadingTextFiles/main.cpp)
-9. [Parsing Text Files](./ParsingTextinFiles/main.cpp)
-10. [Structs and Padding](./StructandPadding/main.cpp)
-11. [Reading and Writing Binary Files](./BinaryFiles/main.cpp)
+7. [Writing Text Files](./WritingTextFiles/)
+8. [Reading Text Files](./ReadingTextFiles/)
+9. [Parsing Text Files](./ParsingTextinFiles/)
+10. [Structs and Padding](./StructandPadding/)
+11. [Reading and Writing Binary Files](./BinaryFiles/)
 
 ## Section 4
 
