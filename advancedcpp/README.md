@@ -34,10 +34,10 @@
 
 ## Section 8: C++ 11's Amazing New Features
 
-39. [Decltype, Typeid and Name Mangling]()
-40. [The Auto Keyword]()
-41. [Range-Based Loops]()
-42. [Nested Template Classes]()
+39. [Decltype, Typeid and Name Mangling](./DecltypeandTypeid/)
+40. [The Auto Keyword](./TheautoKeyword/)
+41. [Range-Based Loops](./EnhancedForLoop/)
+42. [Nested Template Classes](./NestedTemplateClasses/)
 43. [A Ring Buffer Class]()
 44. [Making Classes Iterable]()
 45. [Initialization in C++ 98]()
