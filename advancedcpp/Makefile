@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ BinaryFiles - Debug ]----------"
-	@cd "BinaryFiles" && "$(MAKE)" -f  "BinaryFiles.mk"
+	@echo "----------Building project:[ VectorsandMemory - Debug ]----------"
+	@cd "VectorsandMemory" && "$(MAKE)" -f  "VectorsandMemory.mk"
 clean:
-	@echo "----------Cleaning project:[ BinaryFiles - Debug ]----------"
-	@cd "BinaryFiles" && "$(MAKE)" -f  "BinaryFiles.mk" clean
+	@echo "----------Cleaning project:[ VectorsandMemory - Debug ]----------"
+	@cd "VectorsandMemory" && "$(MAKE)" -f  "VectorsandMemory.mk" clean

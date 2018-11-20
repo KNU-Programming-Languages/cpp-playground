@@ -7,8 +7,10 @@
   <Project Name="WritingTextFiles" Path="WritingTextFiles/WritingTextFiles.project" Active="No"/>
   <Project Name="ReadingTextFiles" Path="ReadingTextFiles/ReadingTextFiles.project" Active="No"/>
   <Project Name="ParsingTextinFiles" Path="ParsingTextinFiles/ParsingTextinFiles.project" Active="No"/>
-  <Project Name="BinaryFiles" Path="BinaryFiles/BinaryFiles.project" Active="Yes"/>
+  <Project Name="BinaryFiles" Path="BinaryFiles/BinaryFiles.project" Active="No"/>
   <Project Name="StructandPadding" Path="StructandPadding/StructandPadding.project" Active="No"/>
+  <Project Name="Vectors" Path="Vectors/Vectors.project" Active="No"/>
+  <Project Name="VectorsandMemory" Path="VectorsandMemory/VectorsandMemory.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -21,6 +23,8 @@
       <Project Name="ParsingTextinFiles" ConfigName="Debug"/>
       <Project Name="BinaryFiles" ConfigName="Debug"/>
       <Project Name="StructandPadding" ConfigName="Debug"/>
+      <Project Name="Vectors" ConfigName="Debug"/>
+      <Project Name="VectorsandMemory" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -33,6 +37,8 @@
       <Project Name="ParsingTextinFiles" ConfigName="Release"/>
       <Project Name="BinaryFiles" ConfigName="Release"/>
       <Project Name="StructandPadding" ConfigName="Release"/>
+      <Project Name="Vectors" ConfigName="Release"/>
+      <Project Name="VectorsandMemory" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
