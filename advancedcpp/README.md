@@ -22,6 +22,18 @@
 
 ## Section 4
 
+12. [Vectors]()
+13. [Vectors and Memory]()
+14. [Two Dimensional Vectors]()
+15. [Lists]()
+16. [Maps]()
+17. [Custom Objects as Map Values]()
+18. [Custom Objects as Map Keys]()
+19. [Multimaps]()
+20. [Sets]()
+21. [Stacks and Queues]()
+22. [Sorting Vectors, Deque and Friend]()
+23. [STL Complex Data Types]()
 
 ## Section 5
 
