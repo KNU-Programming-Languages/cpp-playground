@@ -7,8 +7,20 @@
   <Project Name="WritingTextFiles" Path="WritingTextFiles/WritingTextFiles.project" Active="No"/>
   <Project Name="ReadingTextFiles" Path="ReadingTextFiles/ReadingTextFiles.project" Active="No"/>
   <Project Name="ParsingTextinFiles" Path="ParsingTextinFiles/ParsingTextinFiles.project" Active="No"/>
-  <Project Name="BinaryFiles" Path="BinaryFiles/BinaryFiles.project" Active="Yes"/>
+  <Project Name="BinaryFiles" Path="BinaryFiles/BinaryFiles.project" Active="No"/>
   <Project Name="StructandPadding" Path="StructandPadding/StructandPadding.project" Active="No"/>
+  <Project Name="DecltypeandTypeid" Path="DecltypeandTypeid/DecltypeandTypeid.project" Active="No"/>
+  <Project Name="TheautoKeyword" Path="TheautoKeyword/TheautoKeyword.project" Active="No"/>
+  <Project Name="EnhancedForLoop" Path="EnhancedForLoop/EnhancedForLoop.project" Active="No"/>
+  <Project Name="NestedTemplateClasses" Path="NestedTemplateClasses/NestedTemplateClasses.project" Active="No"/>
+  <Project Name="RingBuffer" Path="RingBuffer/RingBuffer.project" Active="No"/>
+  <Project Name="IterableClasses" Path="IterableClasses/IterableClasses.project" Active="No"/>
+  <Project Name="Cpp98Initialization" Path="Cpp98Initialization/Cpp98Initialization.project" Active="No"/>
+  <Project Name="Cpp11Initialization" Path="Cpp11Initialization/Cpp11Initialization.project" Active="No"/>
+  <Project Name="InitializerLists" Path="InitializerLists/InitializerLists.project" Active="No"/>
+  <Project Name="ObjectInitialization" Path="ObjectInitialization/ObjectInitialization.project" Active="No"/>
+  <Project Name="IntroducingLambdaExpressions" Path="IntroducingLambdaExpressions/IntroducingLambdaExpressions.project" Active="No"/>
+  <Project Name="LambdaParametersandReturnType" Path="LambdaParametersandReturnType/LambdaParametersandReturnType.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -21,6 +33,18 @@
       <Project Name="ParsingTextinFiles" ConfigName="Debug"/>
       <Project Name="BinaryFiles" ConfigName="Debug"/>
       <Project Name="StructandPadding" ConfigName="Debug"/>
+      <Project Name="DecltypeandTypeid" ConfigName="Debug"/>
+      <Project Name="TheautoKeyword" ConfigName="Debug"/>
+      <Project Name="EnhancedForLoop" ConfigName="Debug"/>
+      <Project Name="NestedTemplateClasses" ConfigName="Debug"/>
+      <Project Name="RingBuffer" ConfigName="Debug"/>
+      <Project Name="IterableClasses" ConfigName="Debug"/>
+      <Project Name="Cpp98Initialization" ConfigName="Debug"/>
+      <Project Name="Cpp11Initialization" ConfigName="Debug"/>
+      <Project Name="InitializerLists" ConfigName="Debug"/>
+      <Project Name="ObjectInitialization" ConfigName="Debug"/>
+      <Project Name="IntroducingLambdaExpressions" ConfigName="Debug"/>
+      <Project Name="LambdaParametersandReturnType" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -33,6 +57,18 @@
       <Project Name="ParsingTextinFiles" ConfigName="Release"/>
       <Project Name="BinaryFiles" ConfigName="Release"/>
       <Project Name="StructandPadding" ConfigName="Release"/>
+      <Project Name="DecltypeandTypeid" ConfigName="Release"/>
+      <Project Name="TheautoKeyword" ConfigName="Release"/>
+      <Project Name="EnhancedForLoop" ConfigName="Release"/>
+      <Project Name="NestedTemplateClasses" ConfigName="Release"/>
+      <Project Name="RingBuffer" ConfigName="Release"/>
+      <Project Name="IterableClasses" ConfigName="Release"/>
+      <Project Name="Cpp98Initialization" ConfigName="Release"/>
+      <Project Name="Cpp11Initialization" ConfigName="Release"/>
+      <Project Name="InitializerLists" ConfigName="Release"/>
+      <Project Name="ObjectInitialization" ConfigName="Release"/>
+      <Project Name="IntroducingLambdaExpressions" ConfigName="Release"/>
+      <Project Name="LambdaParametersandReturnType" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ BinaryFiles - Debug ]----------"
-	@cd "BinaryFiles" && "$(MAKE)" -f  "BinaryFiles.mk"
+	@echo "----------Building project:[ LambdaParametersandReturnType - Debug ]----------"
+	@cd "LambdaParametersandReturnType" && "$(MAKE)" -f  "LambdaParametersandReturnType.mk"
 clean:
-	@echo "----------Cleaning project:[ BinaryFiles - Debug ]----------"
-	@cd "BinaryFiles" && "$(MAKE)" -f  "BinaryFiles.mk" clean
+	@echo "----------Cleaning project:[ LambdaParametersandReturnType - Debug ]----------"
+	@cd "LambdaParametersandReturnType" && "$(MAKE)" -f  "LambdaParametersandReturnType.mk" clean
