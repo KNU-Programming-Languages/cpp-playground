@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="cppprimer4th" Database="cppprimer4th.tags" Version="10.0.0">
+  <Project Name="exercise_1_2" Path="how_main_return/how_main_return.project" Active="No"/>
+  <Project Name="example_1_1_2" Path="hello_word/hello_word.project" Active="No"/>
+  <Project Name="example_1_2_2" Path="addtwonumbers/addtwonumbers.project" Active="No"/>
+  <Project Name="example_1_3" Path="embed_comment/embed_comment.project" Active="No"/>
+  <Project Name="example_1_5_1_2" Path="readinUncertainNumberofInput/readinUncertainNumberofInput.project" Active="No"/>
+  <Project Name="example_1_5_1_3" Path="example_1_5_1_3/example_1_5_1_3.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="exercise_1_2" ConfigName="Debug"/>
+      <Project Name="example_1_1_2" ConfigName="Debug"/>
+      <Project Name="example_1_2_2" ConfigName="Debug"/>
+      <Project Name="example_1_3" ConfigName="Debug"/>
+      <Project Name="example_1_5_1_2" ConfigName="Debug"/>
+      <Project Name="example_1_5_1_3" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="exercise_1_2" ConfigName="Release"/>
+      <Project Name="example_1_1_2" ConfigName="Release"/>
+      <Project Name="example_1_2_2" ConfigName="Release"/>
+      <Project Name="example_1_3" ConfigName="Release"/>
+      <Project Name="example_1_5_1_2" ConfigName="Release"/>
+      <Project Name="example_1_5_1_3" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
