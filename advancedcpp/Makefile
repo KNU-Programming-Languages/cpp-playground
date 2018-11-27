@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ VectorsandMemory - Debug ]----------"
-	@cd "VectorsandMemory" && "$(MAKE)" -f  "VectorsandMemory.mk"
+	@echo "----------Building project:[ AComplexNumberClass - Debug ]----------"
+	@cd "AComplexNumberClass" && "$(MAKE)" -f  "AComplexNumberClass.mk"
 clean:
-	@echo "----------Cleaning project:[ VectorsandMemory - Debug ]----------"
-	@cd "VectorsandMemory" && "$(MAKE)" -f  "VectorsandMemory.mk" clean
+	@echo "----------Cleaning project:[ AComplexNumberClass - Debug ]----------"
+	@cd "AComplexNumberClass" && "$(MAKE)" -f  "AComplexNumberClass.mk" clean

@@ -10,7 +10,7 @@
   <Project Name="BinaryFiles" Path="BinaryFiles/BinaryFiles.project" Active="No"/>
   <Project Name="StructandPadding" Path="StructandPadding/StructandPadding.project" Active="No"/>
   <Project Name="Vectors" Path="Vectors/Vectors.project" Active="No"/>
-  <Project Name="VectorsandMemory" Path="VectorsandMemory/VectorsandMemory.project" Active="Yes"/>
+  <Project Name="VectorsandMemory" Path="VectorsandMemory/VectorsandMemory.project" Active="No"/>
   <Project Name="CustomObjectsasMapKeys" Path="CustomObjectsasMapKeys/CustomObjectsasMapKeys.project" Active="No"/>
   <Project Name="CustomObjectsasMapValues" Path="CustomObjectsasMapValues/CustomObjectsasMapValues.project" Active="No"/>
   <Project Name="Lists" Path="Lists/Lists.project" Active="No"/>
@@ -21,6 +21,9 @@
   <Project Name="StackandQueue" Path="StackandQueue/StackandQueue.project" Active="No"/>
   <Project Name="STLComplexDataTypes" Path="STLComplexDataTypes/STLComplexDataTypes.project" Active="No"/>
   <Project Name="TwoDimensionalVectors" Path="TwoDimensionalVectors/TwoDimensionalVectors.project" Active="No"/>
+  <Project Name="OverloadingtheAssignmentOperator" Path="OverloadingtheAssignmentOperator/OverloadingtheAssignmentOperator.project" Active="No"/>
+  <Project Name="OverloadingtheInsertionOperatorforPrinting" Path="OverloadingtheInsertionOperatorforPrinting/OverloadingtheInsertionOperatorforPrinting.project" Active="No"/>
+  <Project Name="AComplexNumberClass" Path="AComplexNumberClass/AComplexNumberClass.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -45,6 +48,9 @@
       <Project Name="StackandQueue" ConfigName="Debug"/>
       <Project Name="STLComplexDataTypes" ConfigName="Debug"/>
       <Project Name="TwoDimensionalVectors" ConfigName="Debug"/>
+      <Project Name="OverloadingtheAssignmentOperator" ConfigName="Debug"/>
+      <Project Name="OverloadingtheInsertionOperatorforPrinting" ConfigName="Debug"/>
+      <Project Name="AComplexNumberClass" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -69,6 +75,9 @@
       <Project Name="StackandQueue" ConfigName="Release"/>
       <Project Name="STLComplexDataTypes" ConfigName="Release"/>
       <Project Name="TwoDimensionalVectors" ConfigName="Release"/>
+      <Project Name="OverloadingtheAssignmentOperator" ConfigName="Release"/>
+      <Project Name="OverloadingtheInsertionOperatorforPrinting" ConfigName="Release"/>
+      <Project Name="AComplexNumberClass" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
