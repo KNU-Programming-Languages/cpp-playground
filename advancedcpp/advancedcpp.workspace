@@ -29,8 +29,13 @@
   <Project Name="ElisionandOptimization" Path="ElisionandOptimization/ElisionandOptimization.project" Active="No"/>
   <Project Name="ConstructorsandMemory" Path="ConstructorsandMemory/ConstructorsandMemory.project" Active="No"/>
   <Project Name="LValueReferences" Path="LValueReferences/LValueReferences.project" Active="No"/>
-  <Project Name="RValueReferences" Path="RValueReferences/RValueReferences.project" Active="Yes"/>
+  <Project Name="RValueReferences" Path="RValueReferences/RValueReferences.project" Active="No"/>
   <Project Name="RValuesandLValues" Path="RValuesandLValues/RValuesandLValues.project" Active="No"/>
+  <Project Name="MoveConstructors" Path="MoveConstructors/MoveConstructors.project" Active="No"/>
+  <Project Name="MoveAssignmentOperators" Path="MoveAssignmentOperators/MoveAssignmentOperators.project" Active="No"/>
+  <Project Name="StaticCast" Path="StaticCast/StaticCast.project" Active="No"/>
+  <Project Name="DynamicCast" Path="DynamicCast/DynamicCast.project" Active="No"/>
+  <Project Name="ReinterpretCast" Path="ReinterpretCast/ReinterpretCast.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -68,6 +73,11 @@
       <Project Name="RValueReferences" ConfigName="Debug"/>
       <Project Name="RValueReferences" ConfigName="Debug"/>
       <Project Name="RValuesandLValues" ConfigName="Debug"/>
+      <Project Name="MoveConstructors" ConfigName="Debug"/>
+      <Project Name="MoveAssignmentOperators" ConfigName="Debug"/>
+      <Project Name="StaticCast" ConfigName="Debug"/>
+      <Project Name="DynamicCast" ConfigName="Debug"/>
+      <Project Name="ReinterpretCast" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -105,6 +115,11 @@
       <Project Name="RValueReferences" ConfigName="Release"/>
       <Project Name="RValueReferences" ConfigName="Release"/>
       <Project Name="RValuesandLValues" ConfigName="Release"/>
+      <Project Name="MoveConstructors" ConfigName="Release"/>
+      <Project Name="MoveAssignmentOperators" ConfigName="Release"/>
+      <Project Name="StaticCast" ConfigName="Release"/>
+      <Project Name="DynamicCast" ConfigName="Release"/>
+      <Project Name="ReinterpretCast" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ RValueReferences - Debug ]----------"
-	@cd "RValueReferences" && "$(MAKE)" -f  "RValueReferences.mk"
+	@echo "----------Building project:[ ReinterpretCast - Debug ]----------"
+	@cd "ReinterpretCast" && "$(MAKE)" -f  "ReinterpretCast.mk"
 clean:
-	@echo "----------Cleaning project:[ RValueReferences - Debug ]----------"
-	@cd "RValueReferences" && "$(MAKE)" -f  "RValueReferences.mk" clean
+	@echo "----------Cleaning project:[ ReinterpretCast - Debug ]----------"
+	@cd "ReinterpretCast" && "$(MAKE)" -f  "ReinterpretCast.mk" clean
