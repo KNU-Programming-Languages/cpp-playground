@@ -25,7 +25,12 @@
   <Project Name="CaptureThisinLambda" Path="CaptureThisinLambda/CaptureThisinLambda.project" Active="No"/>
   <Project Name="FunctionalTypes" Path="FunctionalTypes/FunctionalTypes.project" Active="No"/>
   <Project Name="MutableLambdas" Path="MutableLambdas/MutableLambdas.project" Active="No"/>
-  <Project Name="DelegatingConstructors" Path="DelegatingConstructors/DelegatingConstructors.project" Active="Yes"/>
+  <Project Name="DelegatingConstructors" Path="DelegatingConstructors/DelegatingConstructors.project" Active="No"/>
+  <Project Name="ElisionandOptimization" Path="ElisionandOptimization/ElisionandOptimization.project" Active="No"/>
+  <Project Name="ConstructorsandMemory" Path="ConstructorsandMemory/ConstructorsandMemory.project" Active="No"/>
+  <Project Name="LValueReferences" Path="LValueReferences/LValueReferences.project" Active="No"/>
+  <Project Name="RValueReferences" Path="RValueReferences/RValueReferences.project" Active="Yes"/>
+  <Project Name="RValuesandLValues" Path="RValuesandLValues/RValuesandLValues.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -55,6 +60,14 @@
       <Project Name="FunctionalTypes" ConfigName="Debug"/>
       <Project Name="MutableLambdas" ConfigName="Debug"/>
       <Project Name="DelegatingConstructors" ConfigName="Debug"/>
+      <Project Name="ElisionandOptimization" ConfigName="Debug"/>
+      <Project Name="ConstructorsandMemory" ConfigName="Debug"/>
+      <Project Name="RValuesandLValues" ConfigName="Debug"/>
+      <Project Name="LValueReferences" ConfigName="Debug"/>
+      <Project Name="RValuesandLValues" ConfigName="Debug"/>
+      <Project Name="RValueReferences" ConfigName="Debug"/>
+      <Project Name="RValueReferences" ConfigName="Debug"/>
+      <Project Name="RValuesandLValues" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -84,6 +97,14 @@
       <Project Name="FunctionalTypes" ConfigName="Release"/>
       <Project Name="MutableLambdas" ConfigName="Release"/>
       <Project Name="DelegatingConstructors" ConfigName="Release"/>
+      <Project Name="ElisionandOptimization" ConfigName="Release"/>
+      <Project Name="ConstructorsandMemory" ConfigName="Release"/>
+      <Project Name="RValuesandLValues" ConfigName="Release"/>
+      <Project Name="LValueReferences" ConfigName="Release"/>
+      <Project Name="RValuesandLValues" ConfigName="Release"/>
+      <Project Name="RValueReferences" ConfigName="Release"/>
+      <Project Name="RValueReferences" ConfigName="Release"/>
+      <Project Name="RValuesandLValues" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
