@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Session Name="/home/pxu/projects/codelite/cpp_primer_5th/cppprimer5th/playground/cppprimer5th.workspace">
+  <int Value="1" Name="m_selectedTab"/>
+  <wxString Value="/home/pxu/projects/codelite/cpp_primer_5th/cppprimer5th/playground/cppprimer5th.workspace" Name="m_workspaceName"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="/home/pxu/projects/codelite/cpp_primer_5th/cppprimer5th/playground/exercise_2_3/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="10" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/pxu/projects/codelite/cpp_primer_5th/cppprimer5th/playground/example_2_1_3/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="8" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+  </TabInfoArray>
+  <SerializedObject Name="m_breakpoints">
+    <long Value="0" Name="Count"/>
+  </SerializedObject>
+  <wxString Value="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.inc;*.mm;*.m;*.xrc" Name="m_findInFilesMask"/>
+</Session>
