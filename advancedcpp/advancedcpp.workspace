@@ -20,7 +20,12 @@
   <Project Name="InitializerLists" Path="InitializerLists/InitializerLists.project" Active="No"/>
   <Project Name="ObjectInitialization" Path="ObjectInitialization/ObjectInitialization.project" Active="No"/>
   <Project Name="IntroducingLambdaExpressions" Path="IntroducingLambdaExpressions/IntroducingLambdaExpressions.project" Active="No"/>
-  <Project Name="LambdaParametersandReturnType" Path="LambdaParametersandReturnType/LambdaParametersandReturnType.project" Active="Yes"/>
+  <Project Name="LambdaParametersandReturnType" Path="LambdaParametersandReturnType/LambdaParametersandReturnType.project" Active="No"/>
+  <Project Name="LambdaCaptureExpressions" Path="LambdaCaptureExpressions/LambdaCaptureExpressions.project" Active="No"/>
+  <Project Name="CaptureThisinLambda" Path="CaptureThisinLambda/CaptureThisinLambda.project" Active="No"/>
+  <Project Name="FunctionalTypes" Path="FunctionalTypes/FunctionalTypes.project" Active="No"/>
+  <Project Name="MutableLambdas" Path="MutableLambdas/MutableLambdas.project" Active="No"/>
+  <Project Name="DelegatingConstructors" Path="DelegatingConstructors/DelegatingConstructors.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -45,6 +50,11 @@
       <Project Name="ObjectInitialization" ConfigName="Debug"/>
       <Project Name="IntroducingLambdaExpressions" ConfigName="Debug"/>
       <Project Name="LambdaParametersandReturnType" ConfigName="Debug"/>
+      <Project Name="LambdaCaptureExpressions" ConfigName="Debug"/>
+      <Project Name="CaptureThisinLambda" ConfigName="Debug"/>
+      <Project Name="FunctionalTypes" ConfigName="Debug"/>
+      <Project Name="MutableLambdas" ConfigName="Debug"/>
+      <Project Name="DelegatingConstructors" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -69,6 +79,11 @@
       <Project Name="ObjectInitialization" ConfigName="Release"/>
       <Project Name="IntroducingLambdaExpressions" ConfigName="Release"/>
       <Project Name="LambdaParametersandReturnType" ConfigName="Release"/>
+      <Project Name="LambdaCaptureExpressions" ConfigName="Release"/>
+      <Project Name="CaptureThisinLambda" ConfigName="Release"/>
+      <Project Name="FunctionalTypes" ConfigName="Release"/>
+      <Project Name="MutableLambdas" ConfigName="Release"/>
+      <Project Name="DelegatingConstructors" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
