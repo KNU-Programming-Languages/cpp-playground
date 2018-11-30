@@ -23,7 +23,10 @@
   <Project Name="TwoDimensionalVectors" Path="TwoDimensionalVectors/TwoDimensionalVectors.project" Active="No"/>
   <Project Name="OverloadingtheAssignmentOperator" Path="OverloadingtheAssignmentOperator/OverloadingtheAssignmentOperator.project" Active="No"/>
   <Project Name="OverloadingtheInsertionOperatorforPrinting" Path="OverloadingtheInsertionOperatorforPrinting/OverloadingtheInsertionOperatorforPrinting.project" Active="No"/>
-  <Project Name="AComplexNumberClass" Path="AComplexNumberClass/AComplexNumberClass.project" Active="Yes"/>
+  <Project Name="AComplexNumberClass" Path="AComplexNumberClass/AComplexNumberClass.project" Active="No"/>
+  <Project Name="OverloadingPlus" Path="OverloadingPlus/OverloadingPlus.project" Active="No"/>
+  <Project Name="OverloadingComparisonOperators" Path="OverloadingComparisonOperators/OverloadingComparisonOperators.project" Active="No"/>
+  <Project Name="OverloadingtheDereferenceOperator" Path="OverloadingtheDereferenceOperator/OverloadingtheDereferenceOperator.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -51,6 +54,9 @@
       <Project Name="OverloadingtheAssignmentOperator" ConfigName="Debug"/>
       <Project Name="OverloadingtheInsertionOperatorforPrinting" ConfigName="Debug"/>
       <Project Name="AComplexNumberClass" ConfigName="Debug"/>
+      <Project Name="OverloadingPlus" ConfigName="Debug"/>
+      <Project Name="OverloadingComparisonOperators" ConfigName="Debug"/>
+      <Project Name="OverloadingtheDereferenceOperator" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -78,6 +84,9 @@
       <Project Name="OverloadingtheAssignmentOperator" ConfigName="Release"/>
       <Project Name="OverloadingtheInsertionOperatorforPrinting" ConfigName="Release"/>
       <Project Name="AComplexNumberClass" ConfigName="Release"/>
+      <Project Name="OverloadingPlus" ConfigName="Release"/>
+      <Project Name="OverloadingComparisonOperators" ConfigName="Release"/>
+      <Project Name="OverloadingtheDereferenceOperator" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

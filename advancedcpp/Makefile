@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ AComplexNumberClass - Debug ]----------"
-	@cd "AComplexNumberClass" && "$(MAKE)" -f  "AComplexNumberClass.mk"
+	@echo "----------Building project:[ OverloadingtheDereferenceOperator - Debug ]----------"
+	@cd "OverloadingtheDereferenceOperator" && "$(MAKE)" -f  "OverloadingtheDereferenceOperator.mk"
 clean:
-	@echo "----------Cleaning project:[ AComplexNumberClass - Debug ]----------"
-	@cd "AComplexNumberClass" && "$(MAKE)" -f  "AComplexNumberClass.mk" clean
+	@echo "----------Cleaning project:[ OverloadingtheDereferenceOperator - Debug ]----------"
+	@cd "OverloadingtheDereferenceOperator" && "$(MAKE)" -f  "OverloadingtheDereferenceOperator.mk" clean
