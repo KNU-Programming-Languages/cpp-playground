@@ -37,12 +37,12 @@
 
 ## Section 5: Operator Overloading
 
-24. Overloading the Assignment Operator
-25. Printing - Overloading Left Bit Shift
-26. A Complex Number Class
-27. Overloading Plus
-28. Overloading Equality Test
-29. Overloading the Dereference Operator
+24. [Overloading the Assignment Operator](./OverloadingtheAssignmentOperator)
+25. [Printing - Overloading Left Bit Shift](./OverloadingtheInsertionOperatorforPrinting)
+26. [A Complex Number Class](./AComplexNumberClass)
+27. [Overloading Plus](./OverloadingPlus)
+28. [Overloading Equality Test](./OverloadingComparisonOperators)
+29. [Overloading the Dereference Operator](./OverloadingtheDereferenceOperator)
 
 ## Section 6
 
