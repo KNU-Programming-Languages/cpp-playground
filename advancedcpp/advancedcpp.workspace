@@ -10,7 +10,23 @@
   <Project Name="BinaryFiles" Path="BinaryFiles/BinaryFiles.project" Active="No"/>
   <Project Name="StructandPadding" Path="StructandPadding/StructandPadding.project" Active="No"/>
   <Project Name="Vectors" Path="Vectors/Vectors.project" Active="No"/>
-  <Project Name="VectorsandMemory" Path="VectorsandMemory/VectorsandMemory.project" Active="Yes"/>
+  <Project Name="VectorsandMemory" Path="VectorsandMemory/VectorsandMemory.project" Active="No"/>
+  <Project Name="CustomObjectsasMapKeys" Path="CustomObjectsasMapKeys/CustomObjectsasMapKeys.project" Active="No"/>
+  <Project Name="CustomObjectsasMapValues" Path="CustomObjectsasMapValues/CustomObjectsasMapValues.project" Active="No"/>
+  <Project Name="Lists" Path="Lists/Lists.project" Active="No"/>
+  <Project Name="Maps" Path="Maps/Maps.project" Active="No"/>
+  <Project Name="Multimap" Path="Multimap/Multimap.project" Active="No"/>
+  <Project Name="Sets" Path="Sets/Sets.project" Active="No"/>
+  <Project Name="SortingVectors" Path="SortingVectors/SortingVectors.project" Active="No"/>
+  <Project Name="StackandQueue" Path="StackandQueue/StackandQueue.project" Active="No"/>
+  <Project Name="STLComplexDataTypes" Path="STLComplexDataTypes/STLComplexDataTypes.project" Active="No"/>
+  <Project Name="TwoDimensionalVectors" Path="TwoDimensionalVectors/TwoDimensionalVectors.project" Active="No"/>
+  <Project Name="OverloadingtheAssignmentOperator" Path="OverloadingtheAssignmentOperator/OverloadingtheAssignmentOperator.project" Active="No"/>
+  <Project Name="OverloadingtheInsertionOperatorforPrinting" Path="OverloadingtheInsertionOperatorforPrinting/OverloadingtheInsertionOperatorforPrinting.project" Active="No"/>
+  <Project Name="AComplexNumberClass" Path="AComplexNumberClass/AComplexNumberClass.project" Active="No"/>
+  <Project Name="OverloadingPlus" Path="OverloadingPlus/OverloadingPlus.project" Active="No"/>
+  <Project Name="OverloadingComparisonOperators" Path="OverloadingComparisonOperators/OverloadingComparisonOperators.project" Active="No"/>
+  <Project Name="OverloadingtheDereferenceOperator" Path="OverloadingtheDereferenceOperator/OverloadingtheDereferenceOperator.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -25,6 +41,22 @@
       <Project Name="StructandPadding" ConfigName="Debug"/>
       <Project Name="Vectors" ConfigName="Debug"/>
       <Project Name="VectorsandMemory" ConfigName="Debug"/>
+      <Project Name="CustomObjectsasMapKeys" ConfigName="Debug"/>
+      <Project Name="CustomObjectsasMapValues" ConfigName="Debug"/>
+      <Project Name="Lists" ConfigName="Debug"/>
+      <Project Name="Maps" ConfigName="Debug"/>
+      <Project Name="Multimap" ConfigName="Debug"/>
+      <Project Name="Sets" ConfigName="Debug"/>
+      <Project Name="SortingVectors" ConfigName="Debug"/>
+      <Project Name="StackandQueue" ConfigName="Debug"/>
+      <Project Name="STLComplexDataTypes" ConfigName="Debug"/>
+      <Project Name="TwoDimensionalVectors" ConfigName="Debug"/>
+      <Project Name="OverloadingtheAssignmentOperator" ConfigName="Debug"/>
+      <Project Name="OverloadingtheInsertionOperatorforPrinting" ConfigName="Debug"/>
+      <Project Name="AComplexNumberClass" ConfigName="Debug"/>
+      <Project Name="OverloadingPlus" ConfigName="Debug"/>
+      <Project Name="OverloadingComparisonOperators" ConfigName="Debug"/>
+      <Project Name="OverloadingtheDereferenceOperator" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -39,6 +71,22 @@
       <Project Name="StructandPadding" ConfigName="Release"/>
       <Project Name="Vectors" ConfigName="Release"/>
       <Project Name="VectorsandMemory" ConfigName="Release"/>
+      <Project Name="CustomObjectsasMapKeys" ConfigName="Release"/>
+      <Project Name="CustomObjectsasMapValues" ConfigName="Release"/>
+      <Project Name="Lists" ConfigName="Release"/>
+      <Project Name="Maps" ConfigName="Release"/>
+      <Project Name="Multimap" ConfigName="Release"/>
+      <Project Name="Sets" ConfigName="Release"/>
+      <Project Name="SortingVectors" ConfigName="Release"/>
+      <Project Name="StackandQueue" ConfigName="Release"/>
+      <Project Name="STLComplexDataTypes" ConfigName="Release"/>
+      <Project Name="TwoDimensionalVectors" ConfigName="Release"/>
+      <Project Name="OverloadingtheAssignmentOperator" ConfigName="Release"/>
+      <Project Name="OverloadingtheInsertionOperatorforPrinting" ConfigName="Release"/>
+      <Project Name="AComplexNumberClass" ConfigName="Release"/>
+      <Project Name="OverloadingPlus" ConfigName="Release"/>
+      <Project Name="OverloadingComparisonOperators" ConfigName="Release"/>
+      <Project Name="OverloadingtheDereferenceOperator" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

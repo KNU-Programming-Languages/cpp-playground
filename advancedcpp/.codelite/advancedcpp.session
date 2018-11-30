@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session Name="/home/peng/projects/codelite/cpp_playground/advancedcpp/advancedcpp.workspace">
-  <int Value="2" Name="m_selectedTab"/>
-  <wxString Value="/home/peng/projects/codelite/cpp_playground/advancedcpp/advancedcpp.workspace" Name="m_workspaceName"/>
+<Session Name="/home/peng/projects/codelite/operator/advancedcpp/advancedcpp.workspace">
+  <int Value="0" Name="m_selectedTab"/>
+  <wxString Value="/home/peng/projects/codelite/operator/advancedcpp/advancedcpp.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="/home/peng/projects/codelite/cpp_playground/advancedcpp/BinaryFiles/main.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
+      <wxString Value="/home/peng/projects/codelite/operator/advancedcpp/OverloadingComparisonOperators/Complex.h" Name="FileName"/>
+      <int Value="2" Name="FirstVisibleLine"/>
+      <int Value="12" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="/home/peng/projects/codelite/cpp_playground/advancedcpp/Vectors/main.cpp" Name="FileName"/>
+      <wxString Value="/home/peng/projects/codelite/operator/advancedcpp/OverloadingComparisonOperators/main.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="/home/peng/projects/codelite/cpp_playground/advancedcpp/VectorsandMemory/main.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="9" Name="CurrentLine"/>
+      <int Value="17" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
