@@ -35,7 +35,11 @@
   <Project Name="MoveAssignmentOperators" Path="MoveAssignmentOperators/MoveAssignmentOperators.project" Active="No"/>
   <Project Name="StaticCast" Path="StaticCast/StaticCast.project" Active="No"/>
   <Project Name="DynamicCast" Path="DynamicCast/DynamicCast.project" Active="No"/>
-  <Project Name="ReinterpretCast" Path="ReinterpretCast/ReinterpretCast.project" Active="Yes"/>
+  <Project Name="ReinterpretCast" Path="ReinterpretCast/ReinterpretCast.project" Active="No"/>
+  <Project Name="PerfectForwarding" Path="PerfectForwarding/PerfectForwarding.project" Active="No"/>
+  <Project Name="Bind" Path="Bind/Bind.project" Active="No"/>
+  <Project Name="UniquePointers" Path="UniquePointers/UniquePointers.project" Active="No"/>
+  <Project Name="SharedPointers" Path="SharedPointers/SharedPointers.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -78,6 +82,10 @@
       <Project Name="StaticCast" ConfigName="Debug"/>
       <Project Name="DynamicCast" ConfigName="Debug"/>
       <Project Name="ReinterpretCast" ConfigName="Debug"/>
+      <Project Name="PerfectForwarding" ConfigName="Debug"/>
+      <Project Name="Bind" ConfigName="Debug"/>
+      <Project Name="UniquePointers" ConfigName="Debug"/>
+      <Project Name="SharedPointers" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -120,6 +128,10 @@
       <Project Name="StaticCast" ConfigName="Release"/>
       <Project Name="DynamicCast" ConfigName="Release"/>
       <Project Name="ReinterpretCast" ConfigName="Release"/>
+      <Project Name="PerfectForwarding" ConfigName="Release"/>
+      <Project Name="Bind" ConfigName="Release"/>
+      <Project Name="UniquePointers" ConfigName="Release"/>
+      <Project Name="SharedPointers" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
