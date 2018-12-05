@@ -44,11 +44,20 @@
 28. [Overloading Equality Test](./OverloadingComparisonOperators)
 29. [Overloading the Dereference Operator](./OverloadingtheDereferenceOperator)
 
-## Section 6
+## Section 6: Template Classes and FunctionalTypes
 
+30. Templates - An important Note
+31. [Template Classes](./TemplateClasses)
+32. [Template Functions](./TemplateFunctions)
+33. [Template Functions and Type Inference](./TemplateFunctionsandTypeInference)
 
 ## Section 7
 
+34.
+35.
+36.
+37.
+38.
 
 ## Section 8: C++ 11's Amazing New Features
 
@@ -84,8 +93,9 @@
 68. [Unique Pointers](./UniquePointers)
 69. [Shared Pointers](./SharedPointers)
 
-## Section 9
+## Section 9: About GUI Programming in C++
 
+70. GUI Programming Overview
 
 ## Section 10
 
