@@ -89,5 +89,39 @@
 
 ## Section 10
 
+71. Source Code
+72. [Fractal Creator - Hello World](./FractalCreator-HelloWorld)
+73. [Bitmap File Headers](./BitFileHeaders)
+74. [Bitmap Info Headers](./BitmapInfoHeaders)
+75. [A Bitmap Class](./ABitmapClass)
+76. [Bitmap Memory](./BitmapMemory)
+77. [Bitmap Header Values](./BitmapHeaderValue)
+78. [Writing a Bitmap](./WritingaBitmap)
+79. [Setting Bitmap Pixels](./SettingBitmapPixels)
+80. [Scaling](./Scaling)
+81. A Mandelbrot Class
+82. The Fractal Algorithm
+83. Improving the Image
+84. The Colour Histogram
+85. Validating the Histogram
+86. Eliminating Max Iterations
+87. Storing the Iterations
+88. Using the Histogram
+89. Colour Transforms
+90. A Zoom Class
+91. The Zoom List Class
+92. Centering and Scaling
+93. Applying the Zoom
+94. Zooming In
+95. Reorganising Main
+96. Implementing FractalCreator
+97. An RGB Class
+98. Using the RGB Class
+99. Specifying Color Ranges
+100. Calculating Range Totals
+101. Checking the Range Totals
+102. Getting the Pixel Range (updated)
+103. Range-Based Coloring
+104. More Exercises
 
 ## Section 11
