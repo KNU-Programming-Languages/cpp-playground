@@ -3,17 +3,17 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=UniquePointers
+ProjectName            :=ValidatingTheHistogram
 ConfigurationName      :=Debug
 WorkspacePath          :=/home/pxu/projects/codelite/drawing-fractal-images/advancedcpp
-ProjectPath            :=/home/pxu/projects/codelite/drawing-fractal-images/advancedcpp/UniquePointers
+ProjectPath            :=/home/pxu/projects/codelite/drawing-fractal-images/advancedcpp/ValidatingTheHistogram
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Peng Xu
-Date                   :=06/12/18
+Date                   :=14/12/18
 CodeLitePath           :=/home/pxu/.codelite
 LinkerName             :=g++
 SharedObjectLinkerName :=g++ -shared -fPIC
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E 
-ObjectsFileList        :="UniquePointers.txt"
+ObjectsFileList        :="ValidatingTheHistogram.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=mkdir -p
 LinkOptions            :=  
@@ -60,7 +60,7 @@ AS       := as
 ## User defined environment variables
 ##
 CodeLiteDir:=/usr/share/codelite
-Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/Mandelbrot.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/Bitmap.cpp$(ObjectSuffix) 
 
 
 
@@ -91,13 +91,29 @@ PreBuild:
 ##
 ## Objects
 ##
+$(IntermediateDirectory)/Mandelbrot.cpp$(ObjectSuffix): Mandelbrot.cpp $(IntermediateDirectory)/Mandelbrot.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/pxu/projects/codelite/drawing-fractal-images/advancedcpp/ValidatingTheHistogram/Mandelbrot.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Mandelbrot.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Mandelbrot.cpp$(DependSuffix): Mandelbrot.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Mandelbrot.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/Mandelbrot.cpp$(DependSuffix) -MM Mandelbrot.cpp
+
+$(IntermediateDirectory)/Mandelbrot.cpp$(PreprocessSuffix): Mandelbrot.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Mandelbrot.cpp$(PreprocessSuffix) Mandelbrot.cpp
+
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp $(IntermediateDirectory)/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/pxu/projects/codelite/drawing-fractal-images/advancedcpp/UniquePointers/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/pxu/projects/codelite/drawing-fractal-images/advancedcpp/ValidatingTheHistogram/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(DependSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
 
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
+
+$(IntermediateDirectory)/Bitmap.cpp$(ObjectSuffix): Bitmap.cpp $(IntermediateDirectory)/Bitmap.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/pxu/projects/codelite/drawing-fractal-images/advancedcpp/ValidatingTheHistogram/Bitmap.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Bitmap.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Bitmap.cpp$(DependSuffix): Bitmap.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Bitmap.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/Bitmap.cpp$(DependSuffix) -MM Bitmap.cpp
+
+$(IntermediateDirectory)/Bitmap.cpp$(PreprocessSuffix): Bitmap.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Bitmap.cpp$(PreprocessSuffix) Bitmap.cpp
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)
