@@ -26,7 +26,26 @@
   <Project Name="AComplexNumberClass" Path="AComplexNumberClass/AComplexNumberClass.project" Active="No"/>
   <Project Name="OverloadingPlus" Path="OverloadingPlus/OverloadingPlus.project" Active="No"/>
   <Project Name="OverloadingComparisonOperators" Path="OverloadingComparisonOperators/OverloadingComparisonOperators.project" Active="No"/>
-  <Project Name="OverloadingtheDereferenceOperator" Path="OverloadingtheDereferenceOperator/OverloadingtheDereferenceOperator.project" Active="Yes"/>
+  <Project Name="OverloadingtheDereferenceOperator" Path="OverloadingtheDereferenceOperator/OverloadingtheDereferenceOperator.project" Active="No"/>
+  <Project Name="FractalCreator-HelloWorld" Path="FractalCreator-HelloWorld/FractalCreator-HelloWorld.project" Active="No"/>
+  <Project Name="BitmapFileHeaders" Path="BitmapFileHeaders/BitmapFileHeaders.project" Active="No"/>
+  <Project Name="BitmapInfoHeaders" Path="BitmapInfoHeaders/BitmapInfoHeaders.project" Active="No"/>
+  <Project Name="ABitmapClass" Path="ABitmapClass/ABitmapClass.project" Active="No"/>
+  <Project Name="BitmapMemory" Path="BitmapMemory/BitmapMemory.project" Active="No"/>
+  <Project Name="UniquePointers" Path="UniquePointers/UniquePointers.project" Active="No"/>
+  <Project Name="BitmapHeaderValues" Path="BitmapHeaderValues/BitmapHeaderValues.project" Active="No"/>
+  <Project Name="WritingaBitmap" Path="WritingaBitmap/WritingaBitmap.project" Active="No"/>
+  <Project Name="SettingBitmapPixels" Path="SettingBitmapPixels/SettingBitmapPixels.project" Active="No"/>
+  <Project Name="Scaling" Path="Scaling/Scalling.project" Active="No"/>
+  <Project Name="AMandelbrotClass" Path="AMandelbrotClass/AMandelbrotClass.project" Active="No"/>
+  <Project Name="TheFractalAlgorithm" Path="TheFractalAlgorithm/TheFractalAlgorithm.project" Active="No"/>
+  <Project Name="ImprovingtheBasicFractal" Path="ImprovingtheBasicFractal/ImprovingtheBasicFractal.project" Active="No"/>
+  <Project Name="TheColorHistogram" Path="TheColorHistogram/TheColorHistogram.project" Active="No"/>
+  <Project Name="ValidatingTheHistogram" Path="ValidatingTheHistogram/ValidatingTheHistogram.project" Active="No"/>
+  <Project Name="EliminatingMaxIterations" Path="EliminatingMaxIterations/EliminatingMaxIterations.project" Active="No"/>
+  <Project Name="StoringIterations" Path="StoringIterations/StoringIterations.project" Active="No"/>
+  <Project Name="UsingHistograms" Path="UsingHistograms/UsingHistograms.project" Active="No"/>
+  <Project Name="ColorTransforms" Path="ColorTransforms/ColorTransforms.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -57,6 +76,26 @@
       <Project Name="OverloadingPlus" ConfigName="Debug"/>
       <Project Name="OverloadingComparisonOperators" ConfigName="Debug"/>
       <Project Name="OverloadingtheDereferenceOperator" ConfigName="Debug"/>
+      <Project Name="FractalCreator-HelloWorld" ConfigName="Debug"/>
+      <Project Name="BitmapFileHeaders" ConfigName="Debug"/>
+      <Project Name="BitmapInfoHeaders" ConfigName="Debug"/>
+      <Project Name="ABitmapClass" ConfigName="Debug"/>
+      <Project Name="BitmapMemory" ConfigName="Debug"/>
+      <Project Name="UniquePointers" ConfigName="Debug"/>
+      <Project Name="BitmapHeaderValues" ConfigName="Debug"/>
+      <Project Name="WritingaBitmap" ConfigName="Debug"/>
+      <Project Name="SettingBitmapPixels" ConfigName="Debug"/>
+      <Project Name="Scaling" ConfigName="Debug"/>
+      <Project Name="Scaling" ConfigName="Debug"/>
+      <Project Name="AMandelbrotClass" ConfigName="Debug"/>
+      <Project Name="TheFractalAlgorithm" ConfigName="Debug"/>
+      <Project Name="ImprovingtheBasicFractal" ConfigName="Debug"/>
+      <Project Name="TheColorHistogram" ConfigName="Debug"/>
+      <Project Name="ValidatingTheHistogram" ConfigName="Debug"/>
+      <Project Name="EliminatingMaxIterations" ConfigName="Debug"/>
+      <Project Name="StoringIterations" ConfigName="Debug"/>
+      <Project Name="UsingHistograms" ConfigName="Debug"/>
+      <Project Name="ColorTransforms" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -87,6 +126,26 @@
       <Project Name="OverloadingPlus" ConfigName="Release"/>
       <Project Name="OverloadingComparisonOperators" ConfigName="Release"/>
       <Project Name="OverloadingtheDereferenceOperator" ConfigName="Release"/>
+      <Project Name="FractalCreator-HelloWorld" ConfigName="Release"/>
+      <Project Name="BitmapFileHeaders" ConfigName="Release"/>
+      <Project Name="BitmapInfoHeaders" ConfigName="Release"/>
+      <Project Name="ABitmapClass" ConfigName="Release"/>
+      <Project Name="BitmapMemory" ConfigName="Release"/>
+      <Project Name="UniquePointers" ConfigName="Release"/>
+      <Project Name="BitmapHeaderValues" ConfigName="Release"/>
+      <Project Name="WritingaBitmap" ConfigName="Release"/>
+      <Project Name="SettingBitmapPixels" ConfigName="Release"/>
+      <Project Name="Scaling" ConfigName="Release"/>
+      <Project Name="Scaling" ConfigName="Release"/>
+      <Project Name="AMandelbrotClass" ConfigName="Release"/>
+      <Project Name="TheFractalAlgorithm" ConfigName="Release"/>
+      <Project Name="ImprovingtheBasicFractal" ConfigName="Release"/>
+      <Project Name="TheColorHistogram" ConfigName="Release"/>
+      <Project Name="ValidatingTheHistogram" ConfigName="Release"/>
+      <Project Name="EliminatingMaxIterations" ConfigName="Release"/>
+      <Project Name="StoringIterations" ConfigName="Release"/>
+      <Project Name="UsingHistograms" ConfigName="Release"/>
+      <Project Name="ColorTransforms" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

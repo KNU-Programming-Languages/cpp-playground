@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ OverloadingtheDereferenceOperator - Debug ]----------"
-	@cd "OverloadingtheDereferenceOperator" && "$(MAKE)" -f  "OverloadingtheDereferenceOperator.mk"
+	@echo "----------Building project:[ ColorTransforms - Debug ]----------"
+	@cd "ColorTransforms" && "$(MAKE)" -f  "ColorTransforms.mk"
 clean:
-	@echo "----------Cleaning project:[ OverloadingtheDereferenceOperator - Debug ]----------"
-	@cd "OverloadingtheDereferenceOperator" && "$(MAKE)" -f  "OverloadingtheDereferenceOperator.mk" clean
+	@echo "----------Cleaning project:[ ColorTransforms - Debug ]----------"
+	@cd "ColorTransforms" && "$(MAKE)" -f  "ColorTransforms.mk" clean
